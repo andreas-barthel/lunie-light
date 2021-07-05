@@ -4,8 +4,8 @@ export default {
   description: 'Unification Blockchain',
   logo: `logo.svg`,
   website: 'https://unification.com',
-  apiURL: 'http://localhost:8010/proxy', // use `npx lcp --proxyUrl http://34.123.30.100:1317`
-  rpcURL: 'ws://34.123.30.100:26657',
+  apiURL: 'https://rest.unification.io', // use `npx lcp --proxyUrl http://34.123.30.100:1317`
+  rpcURL: 'https://rpc1.unification.io:443',
   stakingDenom: 'FUND',
   coinLookup: [
     {
